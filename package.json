@@ -1,0 +1,30 @@
+{
+  "name": "atomnet",
+  "version": "0.0.1",
+  "author": "Justin Gallardo <justin.gallardo@gmail.com>",
+  "description": "Build a small private internet.",
+  "private": true,
+  "contributors": [ 
+    {
+      "name": "Justin Gallardo",
+      "email": "justin.gallardo@gmail.com"
+    } 
+  ],
+  "keywords": [
+    "http",
+    "server"
+  ],
+  "analyze": false,
+  "licenses": [
+    {
+        "type": "Apache-2.0"
+      , "url": "http://www.apache.org/licenses/LICENSE-2.0"
+    }
+  ],
+  "engines": {
+    "node": ">=0.6"
+  },
+  "dependencies": {
+    "express": "3.x"
+  }
+}
