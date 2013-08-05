@@ -28,7 +28,10 @@ if ('development' == app.get('env')) {
 }
 
 app.get('/', routes.index);
-app.get('/users', user.list);
+
+// Create Quark
+app.get('/create', routes.create);
+app.post('/create', routes.buildQuark);
 
 http.createServer(app).listen(app.get('port'), function(){
   console.log('Express server listening on port ' + app.get('port'));
